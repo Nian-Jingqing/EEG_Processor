@@ -1,4 +1,4 @@
-In this first section you'll see how to open the BIDS Processor application, how to setup a new dataset, and how to open an existing dataset.
+In this first section you'll see how to open the EEG Processor application, how to setup a new dataset, and how to open an existing dataset.
 
 .. raw:: html
 
@@ -7,7 +7,7 @@ In this first section you'll see how to open the BIDS Processor application, how
 ----
 
 ===================================
-Open the BIDS Processor application
+Open the EEG Processor application
 ===================================
 
 - Navigate to the location of the 'EEG_processor.mlapp' file and make sure to open it with Matlab 2021a or later.
@@ -16,7 +16,7 @@ Open the BIDS Processor application
   :width: 743px
   :align: center
 
-- If you run the BIDS Processor on the Woolcock Super-Computer, then the dependencies of EEGLAB and Fieldtrip will be automatically added. 
+- If you run the EEG Processor on the Woolcock Super-Computer, then the dependencies of EEGLAB and Fieldtrip will be automatically added. 
 
     - Otherwise, you'll have to specify where EEGLAB and Fieldtrip are located on your computer. The following dialogs will show. Press "Browse" and navigate to the folder that contains 'eeglab.m' and 'ft_defaults.m' respectively.
 
@@ -31,10 +31,10 @@ Open the BIDS Processor application
 ----
 
 ============================
-The BIDS Processor interface
+The EEG Processor interface
 ============================
 
-.. figure:: images/scr_1b_bids-interface.png
+.. figure:: images/scr_1b_interface.png
   :width: 589px
   :align: center
 
@@ -67,7 +67,6 @@ Creating a new BIDS dataset
   :width: 333px
   :align: center
 
-
 - The BIDS dataset contains 3 main folders, 
     - the ``sourcedata`` folder contains data before harmonization, reconstruction, and/or file format conversion,
     - the ``rawdata`` folder contains unprocessed or minimally processed data, e.g. file format conversion,
@@ -77,7 +76,7 @@ Creating a new BIDS dataset
   :width: 600px
   :align: center
 
-- The ``rawdata`` folder contains the main ``dataset_description.json`` file. This plain text file is a tree-structered list of properties of the dataset. These properties can be changed via the BIDS Processor application.
+- The ``rawdata`` folder contains the main ``dataset_description.json`` file. This plain text file is a tree-structered list of properties of the dataset. These properties can be changed via the EEG Processor application.
 
 .. figure:: images/scr_1c_dataset-description-json.png
   :width: 608px

@@ -1,5 +1,5 @@
 ==============
-BIDS Processor
+EEG Processor
 ==============
 
 .. raw:: html
@@ -8,13 +8,13 @@ BIDS Processor
 
 ----
 
-The BIDS Processor is a Matlab application to import, preprocess and analyse EEG recordings. All files will be automatically named and organized according to the specifications of the `Brain Imaging Dataset Structure <https://bids-specification.readthedocs.io>`_.
+The EEG Processor is a Matlab application to import, preprocess and analyse EEG recordings. All files will be automatically named and organized according to the specifications of the `Brain Imaging Dataset Structure <https://bids-specification.readthedocs.io>`_.
 
 .. important::
 
-  The BIDS Processor application cannot handle just any EEG file. The app has been developed specifically for the sleep-lab at the Woolcock Institute of Medical Research, Sydney, Australia where we obtain high-density EEG recordings using the EGI-Philips and Compumedics 257-channel EEG systems.
+  The EEG Processor application cannot handle just any EEG file. The app has been developed specifically for the sleep-lab at the Woolcock Institute of Medical Research, Sydney, Australia where we obtain high-density EEG recordings using the EGI-Philips and Compumedics 257-channel EEG systems.
 
-  Please contact Rick Wassing if you want to make sure the BIDS Processor can handle your dataset. We may need to write some custom import functions.
+  Please contact Rick Wassing if you want to make sure the EEG Processor can handle your dataset. We may need to write some custom import functions.
 
 The Brain Imaging Dataset Structure
 -----------------------------------
@@ -44,7 +44,7 @@ Authors
 Download
 --------
 
-Click `here to download <https://github.com/rickwassing/BIDS_processor/archive/refs/heads/master.zip>`_ the BIDS Application and all Matlab code.
+Click `here to download <https://github.com/rickwassing/EEG_Processor/archive/refs/heads/main.zip>`_ the EEG Processor application and all its Matlab code.
 
 Dependencies
 ------------
@@ -58,9 +58,9 @@ Limitations
 
 .. attention::
 
-  The BIDS Processor can only run in Matlab 2021a and later
+  The EEG Processor can only run in Matlab 2021a and later
 
-Currently, the BIDS Processor can only import EEG data. Other neuroimaging modalities are not supported, and may never be, because other BIDS Apps are already available (see `Gorgolewski et al. <https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005209>`_ (2017) BIDS apps: Improving ease of use, accessibility, and reproducibility of neuroimaging data analysis methods. PLoS comp biol, 13(3), e1005209). Also, the BIDS Processor can only import EEG data from EGI-Philips .MFF files, and Compumedics HD-EEG .EDF files.
+As the name suggests, the EEG Processor can only import EEG data. Other neuroimaging modalities are not supported, and may never be, because other BIDS Apps are already available (see `Gorgolewski et al. <https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005209>`_ (2017) BIDS apps: Improving ease of use, accessibility, and reproducibility of neuroimaging data analysis methods. PLoS comp biol, 13(3), e1005209). Also, the EEG Processor can only import EEG data from EGI-Philips .MFF files, and Compumedics HD-EEG .EDF files.
 
 .. toctree::
   :maxdepth: 1

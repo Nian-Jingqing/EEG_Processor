@@ -4,7 +4,7 @@ In this section you'll see how you can edit the name of a file and visualy inspe
 Edit file name
 ==============
 
-The name of a file in the BIDS structure is determined by a set of stringent `rules and specifications <https://bids-specification.readthedocs.io/en/stable/02-common-principles.html#file-name-structure>`_. The filename is build-up of ``key`` and ``value`` pairs, separated by dashes (-), and these key-value pairs are concatenated by underscores (_).
+The name of a file in the BIDS is determined by a set of stringent `rules and specifications <https://bids-specification.readthedocs.io/en/stable/02-common-principles.html#file-name-structure>`_. The filename is build-up of ``key`` and ``value`` pairs, separated by dashes (-), and these key-value pairs are concatenated by underscores (_).
 
 .. figure:: images/scr_4a_file-properties.png
     :width: 596px

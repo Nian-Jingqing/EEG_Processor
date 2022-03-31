@@ -11,8 +11,8 @@
 %%% =======================================================================
 %%% INITIATION
 clc; clear; % Clear the Command Window and Workspace
-% Add the BIDS processor to the path
-addpath(genpath('S:/Sleep/SleepSoftware/BIDS_processor/latest'))
+% Add the EEG Processor to the path
+addpath(genpath('S:/Sleep/SleepSoftware/EEG_Processor/latest'))
 % Add EEGLAB to the path
 addpath('S:/Sleep/SleepSoftware/eeglab/latest'); eeglab; close all
 %%% =======================================================================

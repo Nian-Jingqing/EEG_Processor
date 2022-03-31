@@ -96,7 +96,7 @@ Import a new file
 
     - EGI-Philips HD-EEG (*.mff)
     - Compumedics HD-EEG (*.edf)
-    - 10-20 Converted by BIDS processor (*.edf)
+    - 10-20 Converted by EEG Processor (*.edf)
 
     **Path**
 
@@ -110,7 +110,7 @@ Import a new file
 
     - Template: GSN-HydroCel-257 (for EGI-Philips HD-EEG)
     - Template: Compumedics-257 (for Compumedics HD-EEG)
-    - Template: 10-20 (For 10-20 Converted by BIDS processor)
+    - Template: 10-20 (For 10-20 Converted by EEG Processor)
     - Import Geoscan
 
     **Channel Path**
@@ -161,7 +161,7 @@ Import a new file
 
 .. warning::
 
-    Although it may seem that the BIDS processor can import EDF files, it may not accurately handle **any** EDF file. The three specified formats (EGI, Compumedics, 10-20) have known data structures and the BIDS Processor "knows" how to import them. Any other EDF may not have the expected data structure and may not import properly.
+    Although it may seem that the EEG Processor can import EDF files, it may not accurately handle **any** EDF file. The three specified formats (EGI, Compumedics, 10-20) have known data structures and the EEG Processor "knows" how to import them. Any other EDF may not have the expected data structure and may not import properly.
 
 Ok, now you've specified all the import settings. What's next?
 
@@ -175,7 +175,7 @@ You'll notice that the file is not yet imported. Instead it is added to the proc
 
 - Use the "Run" button to start importing the file.
 
-Once all processes have finished, the BIDS Processor will now show you the imported files.
+Once all processes have finished, the EEG Processor will now show you the imported files.
 
 .. figure:: images/scr_3e_import-completed.png
     :width: 630px
