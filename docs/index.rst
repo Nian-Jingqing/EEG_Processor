@@ -19,7 +19,7 @@ The EEG Processor is a Matlab application to import, preprocess and analyse EEG 
 The Brain Imaging Dataset Structure
 -----------------------------------
 
-The Brain Imaging Data Structure (BIDS) is a set of rules and guidelines by which you can organize and describe your neuroimaging dataset. Without BIDS, two researchers may not use the same file-naming strategy, or use dissimilar folder-structures. This results in confusion and time wasted on trying to understand the dataset structure and adapt code to analyse these dataset. It also hampers combining datasets and collaboration. The BIDS aims to solve all of these issues. 
+The Brain Imaging Data Structure (BIDS) is a set of rules and guidelines by which you can organize and describe your neuroimaging dataset. Without BIDS, two researchers may not use the same file-naming strategy, or use dissimilar folder-structures. This results in confusion and time wasted on trying to understand the dataset structure and adapt code to analyse these datasets. It also hampers combining datasets and collaboration. The BIDS aims to solve all of these issues. 
 
 .. note::
 
@@ -37,7 +37,7 @@ Authors
 - **Rick Wassing**, rick.wassing@sydney.edu.au, Woolcock Institute of Medical Research, The University of Sydney, Australia
 - **Tancy Kao**, Woolcock Institute of Medical Research, The University of Sydney, Australia
 
-.. note::
+.. hint::
 
   This app is an ongoing and open-source project supported by in-kind contributions. If this project resonates with you and you'd like to contribute, please contact Rick Wassing. Your help is most welcome, however small the contribution may be.
 
