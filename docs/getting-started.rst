@@ -10,7 +10,7 @@ In this first section you'll see how to open the EEG Processor application, how 
 Open the EEG Processor application
 ===================================
 
-- Navigate to the location of the 'EEG_processor.mlapp' file and make sure to open it with Matlab 2021a or later.
+- Navigate to the location of the 'EEG_Processor.mlapp' file and make sure to open it with Matlab 2021a or later.
 
 .. figure:: images/scr_1a_open-application.png
   :width: 743px

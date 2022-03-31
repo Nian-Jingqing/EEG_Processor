@@ -2,7 +2,7 @@ In this section you'll see how you can create your first subject and import your
 
 .. raw:: html
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/wAlXdA-DPj0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/RjDMzMV1t3s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ----
 
