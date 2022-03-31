@@ -2,7 +2,7 @@ In this first section you'll see how to open the EEG Processor application, how 
 
 .. raw:: html
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/G5WuRXyHvHY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/RjDMzMV1t3s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ----
 
